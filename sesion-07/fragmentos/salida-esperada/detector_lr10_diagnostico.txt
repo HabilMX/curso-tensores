@@ -1,0 +1,2 @@
+ceros en oculta: 25600 de 25600
+puntajes distintos en el examen: 1 tensor([-1.67

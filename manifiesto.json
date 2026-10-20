@@ -1,0 +1,752 @@
+{
+  "version": 1,
+  "scripts": [
+    {
+      "ruta": "sesion-01/dimensiones.py",
+      "salida": "sesion-01/salida-esperada/dimensiones.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-01/soluciones/ejercicio-01.py",
+      "salida": "sesion-01/soluciones/salida-esperada/ejercicio-01.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-01/soluciones/ejercicio-02.py",
+      "salida": "sesion-01/soluciones/salida-esperada/ejercicio-02.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "La lección no imprime nada en este ejercicio: la salida esperada es vacía."
+    },
+    {
+      "ruta": "sesion-01/soluciones/ejercicio-03.py",
+      "salida": "sesion-01/soluciones/salida-esperada/ejercicio-03.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-01/soluciones/ejercicio-04.py",
+      "salida": "sesion-01/soluciones/salida-esperada/ejercicio-04.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "La lección no imprime nada en este ejercicio: la salida esperada es vacía."
+    },
+    {
+      "ruta": "sesion-01/soluciones/ejercicio-05.py",
+      "salida": "sesion-01/soluciones/salida-esperada/ejercicio-05.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-02/chueca.py",
+      "salida": "sesion-02/salida-esperada/chueca.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Provoca el error a propósito. El verificador compara el encabezado del Traceback y la última línea; el cuerpo (rutas, números de línea, marcas ^^^^) varía con la versión de Python."
+    },
+    {
+      "ruta": "sesion-02/compara.py",
+      "salida": "sesion-02/salida-esperada/compara.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-02/dimensiones.py",
+      "salida": "sesion-02/salida-esperada/dimensiones.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Copia del dimensiones.py de la sesión 1: la lección 2 dice que se importa desde la misma carpeta."
+    },
+    {
+      "ruta": "sesion-02/fragmentos/dtype_elegido.py",
+      "salida": "sesion-02/fragmentos/salida-esperada/dtype_elegido.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "fragmento",
+      "nota": "Bloque de la lección que no pide nombre de archivo; se corre tal cual."
+    },
+    {
+      "ruta": "sesion-02/fragmentos/errores_comunes.py",
+      "salida": "sesion-02/fragmentos/salida-esperada/errores_comunes.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "repo",
+      "nota": "Comprueba la tabla «Errores comunes» de la lección 2."
+    },
+    {
+      "ruta": "sesion-02/papeleria.py",
+      "salida": "sesion-02/salida-esperada/papeleria.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-02/primer_tensor.py",
+      "salida": "sesion-02/salida-esperada/primer_tensor.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-02/soluciones/ejercicio-06.py",
+      "salida": "sesion-02/soluciones/salida-esperada/ejercicio-06.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-02/soluciones/ejercicio-07.py",
+      "salida": "sesion-02/soluciones/salida-esperada/ejercicio-07.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-02/soluciones/ejercicio-08.py",
+      "salida": "sesion-02/soluciones/salida-esperada/ejercicio-08.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-02/soluciones/ejercicio-09.py",
+      "salida": "sesion-02/soluciones/salida-esperada/ejercicio-09.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "repo",
+      "nota": "Escrito para el repositorio; las líneas esperadas son las frases de la solución de la lección."
+    },
+    {
+      "ruta": "sesion-02/tipos.py",
+      "salida": "sesion-02/salida-esperada/tipos.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-02/verifica.py",
+      "salida": "sesion-02/salida-esperada/verifica.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "normalizar": [
+        [
+          "(\\d+\\.\\d+\\.\\d+)\\+cpu",
+          "\\1"
+        ]
+      ],
+      "nota": "La lección acepta 2.14.1+cpu (ediciones solo CPU de Linux/Windows): el verificador quita el sufijo +cpu."
+    },
+    {
+      "ruta": "sesion-03/ejes.py",
+      "salida": "sesion-03/salida-esperada/ejes.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Archivo acumulado: pasos 1 a 6 y 8 de la lección, en orden. La línea del paso 7 (papeleria[:][4]) no se incluye porque provoca un error a propósito: está en fragmentos/trampa_corchetes.py."
+    },
+    {
+      "ruta": "sesion-03/foto.py",
+      "salida": "sesion-03/salida-esperada/foto.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Archivo acumulado: pasos 9 y 10 de la lección."
+    },
+    {
+      "ruta": "sesion-03/fragmentos/errores_comunes.py",
+      "salida": "sesion-03/fragmentos/salida-esperada/errores_comunes.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "repo",
+      "nota": "Comprueba la tabla «Errores comunes» de la lección 3."
+    },
+    {
+      "ruta": "sesion-03/fragmentos/trampa_corchetes.py",
+      "salida": "sesion-03/fragmentos/salida-esperada/trampa_corchetes.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "fragmento",
+      "nota": "Paso 7 de la lección: la línea que falla, con los datos del paso 1 delante."
+    },
+    {
+      "ruta": "sesion-03/soluciones/ejercicio-10.py",
+      "salida": "sesion-03/soluciones/salida-esperada/ejercicio-10.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-03/soluciones/ejercicio-11.py",
+      "salida": "sesion-03/soluciones/salida-esperada/ejercicio-11.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-03/soluciones/ejercicio-12.py",
+      "salida": "sesion-03/soluciones/salida-esperada/ejercicio-12.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-03/soluciones/ejercicio-13.py",
+      "salida": "sesion-03/soluciones/salida-esperada/ejercicio-13.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/fragmentos/errores_comunes.py",
+      "salida": "sesion-04/fragmentos/salida-esperada/errores_comunes.txt",
+      "codigo_salida": 0,
+      "modo": "contiene",
+      "origen": "repo",
+      "nota": "Comprueba la tabla «Errores comunes» de la lección 4. La lección cita el mensaje de max con «...» al final: se compara por contenido."
+    },
+    {
+      "ruta": "sesion-04/papeleria.py",
+      "salida": "sesion-04/salida-esperada/papeleria.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Módulo de datos: no imprime nada. Las demás sesiones lo importan."
+    },
+    {
+      "ruta": "sesion-04/paso1.py",
+      "salida": "sesion-04/salida-esperada/paso1.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso2.py",
+      "salida": "sesion-04/salida-esperada/paso2.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso3.py",
+      "salida": "sesion-04/salida-esperada/paso3.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso4.py",
+      "salida": "sesion-04/salida-esperada/paso4.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso4c.py",
+      "salida": "sesion-04/salida-esperada/paso4c.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Provoca el error a propósito (IndexError)."
+    },
+    {
+      "ruta": "sesion-04/paso5a.py",
+      "salida": "sesion-04/salida-esperada/paso5a.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Provoca el error a propósito (mean con enteros)."
+    },
+    {
+      "ruta": "sesion-04/paso5b.py",
+      "salida": "sesion-04/salida-esperada/paso5b.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso5c.py",
+      "salida": "sesion-04/salida-esperada/paso5c.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso6.py",
+      "salida": "sesion-04/salida-esperada/paso6.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso6b.py",
+      "salida": "sesion-04/salida-esperada/paso6b.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/paso6c.py",
+      "salida": "sesion-04/salida-esperada/paso6c.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/soluciones/ejercicio-14.py",
+      "salida": "sesion-04/soluciones/salida-esperada/ejercicio-14.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-04/soluciones/ejercicio-15.py",
+      "salida": "sesion-04/soluciones/salida-esperada/ejercicio-15.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-04/soluciones/ejercicio-16.py",
+      "salida": "sesion-04/soluciones/salida-esperada/ejercicio-16.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-04/soluciones/ejercicio-17.py",
+      "salida": "sesion-04/soluciones/salida-esperada/ejercicio-17.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-05/aplanar.py",
+      "salida": "sesion-05/salida-esperada/aplanar.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-05/cambiar_forma.py",
+      "salida": "sesion-05/salida-esperada/cambiar_forma.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Archivo acumulado: pasos 1 a 4 y 6 de la lección, en orden (el paso 3 incluye su comprobación con for)."
+    },
+    {
+      "ruta": "sesion-05/cambiar_forma_error.py",
+      "salida": "sesion-05/salida-esperada/cambiar_forma_error.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "fragmento",
+      "nota": "Paso 7 de la lección: cambiar_forma.py completo más la línea quintos = ventas.reshape(5, 3) al final (sin ningún comentario añadido, para que el error caiga en la línea 42 que cita la lección)."
+    },
+    {
+      "ruta": "sesion-05/foto.py",
+      "salida": "sesion-05/salida-esperada/foto.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-05/fragmentos/errores_comunes.py",
+      "salida": "sesion-05/fragmentos/salida-esperada/errores_comunes.txt",
+      "codigo_salida": 0,
+      "modo": "contiene",
+      "origen": "repo",
+      "nota": "Comprueba el paso 6 y la tabla «Errores comunes» de la lección 5. El mensaje de ventas[3, 2] no lo cita la lección (solo dice que truena): se compara el tipo de error."
+    },
+    {
+      "ruta": "sesion-05/girar.py",
+      "salida": "sesion-05/salida-esperada/girar.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Archivo acumulado: el bloque de girar.py y el del paso 9 (.T) que se agrega al final."
+    },
+    {
+      "ruta": "sesion-05/papeleria.py",
+      "salida": "sesion-05/salida-esperada/papeleria.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Copia del papeleria.py de la sesión 4 (la lección 5 lo pide en la misma carpeta)."
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-18.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-18.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "repo",
+      "nota": "Escrito para el repositorio; las líneas esperadas son la tabla de la solución de la lección."
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-19.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-19.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-19c.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-19c.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-20a.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-20a.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "La lección da la última línea del error (solución, inciso a); el cuerpo del Traceback se elide."
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-20b.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-20b.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-20c.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-20c.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "La lección dice que el primer renglón es tensor([2500, 3100, 2200, 2800]) (solución, inciso c)."
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-21-trampa.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-21-trampa.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "llenado",
+      "nota": "La lección dice que truena el assert del renglón de cuadernos; el mensaje es el del assert de la solución."
+    },
+    {
+      "ruta": "sesion-05/soluciones/ejercicio-21.py",
+      "salida": "sesion-05/soluciones/salida-esperada/ejercicio-21.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-06/fragmentos/errores_comunes.py",
+      "salida": "sesion-06/fragmentos/salida-esperada/errores_comunes.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "repo",
+      "nota": "Comprueba la tabla «Errores comunes» de la lección 6."
+    },
+    {
+      "ruta": "sesion-06/fragmentos/listas_vs_tensores.py",
+      "salida": "sesion-06/fragmentos/salida-esperada/listas_vs_tensores.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "fragmento"
+    },
+    {
+      "ruta": "sesion-06/operar.py",
+      "salida": "sesion-06/salida-esperada/operar.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Archivo acumulado: pasos 1, 2, 3, 5 y 6 de la lección, en orden. Las líneas que provocan errores a propósito (pasos 4 y 6) están en operar_error_colores.py y operar_error_arroba.py."
+    },
+    {
+      "ruta": "sesion-06/operar_error_arroba.py",
+      "salida": "sesion-06/salida-esperada/operar_error_arroba.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "fragmento",
+      "nota": "Paso 6 de la lección: el orden de @ importa."
+    },
+    {
+      "ruta": "sesion-06/operar_error_colores.py",
+      "salida": "sesion-06/salida-esperada/operar_error_colores.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "fragmento",
+      "nota": "Paso 4 de la lección."
+    },
+    {
+      "ruta": "sesion-06/soluciones/ejercicio-22a.py",
+      "salida": "sesion-06/soluciones/salida-esperada/ejercicio-22a.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "La última línea falla a propósito (el que engaña)."
+    },
+    {
+      "ruta": "sesion-06/soluciones/ejercicio-22b.py",
+      "salida": "sesion-06/soluciones/salida-esperada/ejercicio-22b.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-06/soluciones/ejercicio-23.py",
+      "salida": "sesion-06/soluciones/salida-esperada/ejercicio-23.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-06/soluciones/ejercicio-24.py",
+      "salida": "sesion-06/soluciones/salida-esperada/ejercicio-24.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-06/soluciones/ejercicio-25.py",
+      "salida": "sesion-06/soluciones/salida-esperada/ejercicio-25.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-06/trampa_cuadrada.py",
+      "salida": "sesion-06/salida-esperada/trampa_cuadrada.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "nota": "Paso 7 de la lección: los dos bloques (la trampa y la defensa con for), en orden."
+    },
+    {
+      "ruta": "sesion-07/cerro.py",
+      "salida": "sesion-07/salida-esperada/cerro.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-07/detector.py",
+      "salida": "sesion-07/salida-esperada/detector.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "tolerancia": {
+        "decimales_abs": 0.03,
+        "enteros_abs": 6,
+        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
+      },
+      "nota": "Bloques 1 a 7 de la lección en orden, con el bloque de la pérdida y el optimizador antes del ciclo. La lección dice 61 líneas, 41 sin comentarios ni líneas en blanco; este archivo tiene 61 y 41."
+    },
+    {
+      "ruta": "sesion-07/fragmentos/cerro_sin_zero_grad.py",
+      "salida": "sesion-07/fragmentos/salida-esperada/cerro_sin_zero_grad.txt",
+      "codigo_salida": 0,
+      "modo": "contiene",
+      "origen": "repo",
+      "nota": "Comprueba la fila «Olvidar borrar las pendientes» de la lección 7. Ver DIFERENCIAS.md: con los assert de cerro.py puestos, el programa SÍ truena."
+    },
+    {
+      "ruta": "sesion-07/fragmentos/detector_inspeccion.py",
+      "salida": "sesion-07/fragmentos/salida-esperada/detector_inspeccion.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "fragmento",
+      "tolerancia": {
+        "decimales_abs": 0.001,
+        "enteros_abs": 0,
+        "motivo": "datos al azar con semilla fija"
+      },
+      "nota": "Paso 3 de la lección 7: «Para verlo de cerca, agrega print(X[:3]) y print(y[:3])»."
+    },
+    {
+      "ruta": "sesion-07/fragmentos/detector_lr10_diagnostico.py",
+      "salida": "sesion-07/fragmentos/salida-esperada/detector_lr10_diagnostico.txt",
+      "codigo_salida": 0,
+      "modo": "contiene",
+      "origen": "fragmento",
+      "nota": "Solución del ejercicio 27, con lr=10: las 25,600 señales en cero y el puntaje constante de -1.67."
+    },
+    {
+      "ruta": "sesion-07/fragmentos/detector_sin_grad_en_W1.py",
+      "salida": "sesion-07/fragmentos/salida-esperada/detector_sin_grad_en_W1.txt",
+      "codigo_salida": 0,
+      "modo": "subsecuencia",
+      "origen": "repo",
+      "tolerancia": {
+        "decimales_abs": 0.03,
+        "enteros_abs": 6,
+        "motivo": "salida que depende de la semilla y de la plataforma"
+      },
+      "nota": "Comprueba la fila «Olvidar requires_grad=True» de la lección 7: la pérdida se atora en 0.3353 y atrapa 14 de 125 (los 111 que se escapan y las 0 alarmas falsas son lo que sale del mismo conteo; la lección no los cita)."
+    },
+    {
+      "ruta": "sesion-07/fragmentos/detector_tiempo.py",
+      "salida": "sesion-07/fragmentos/salida-esperada/detector_tiempo.txt",
+      "codigo_salida": 0,
+      "modo": "contiene",
+      "origen": "fragmento",
+      "nota": "Tiempo: no determinista. Solo se comprueba el umbral de un segundo, no el valor."
+    },
+    {
+      "ruta": "sesion-07/fragmentos/errores_comunes.py",
+      "salida": "sesion-07/fragmentos/salida-esperada/errores_comunes.txt",
+      "codigo_salida": 0,
+      "modo": "contiene",
+      "origen": "repo",
+      "nota": "Comprueba la tabla «Errores comunes» de la lección 7. La lección cierra el mensaje de backward con un punto; se compara por contenido."
+    },
+    {
+      "ruta": "sesion-07/soluciones/ejercicio-26.py",
+      "salida": "sesion-07/soluciones/salida-esperada/ejercicio-26.txt",
+      "codigo_salida": 0,
+      "modo": "subsecuencia",
+      "origen": "llenado",
+      "tolerancia": {
+        "decimales_abs": 0.03,
+        "enteros_abs": 6,
+        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
+      },
+      "nota": "La lección pega solo desde la época 400; el verificador exige esas líneas en orden."
+    },
+    {
+      "ruta": "sesion-07/soluciones/ejercicio-27-lr0.1.py",
+      "salida": "sesion-07/soluciones/salida-esperada/ejercicio-27-lr0.1.txt",
+      "codigo_salida": 0,
+      "modo": "subsecuencia",
+      "origen": "llenado",
+      "tolerancia": {
+        "decimales_abs": 0.03,
+        "enteros_abs": 6,
+        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
+      },
+      "nota": "La lección recorta algunas épocas de en medio; el verificador exige esas líneas en orden."
+    },
+    {
+      "ruta": "sesion-07/soluciones/ejercicio-27-lr10.py",
+      "salida": "sesion-07/soluciones/salida-esperada/ejercicio-27-lr10.txt",
+      "codigo_salida": 1,
+      "modo": "subsecuencia",
+      "origen": "llenado",
+      "tolerancia": {
+        "decimales_abs": 0.03,
+        "enteros_abs": 6,
+        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
+      },
+      "nota": "Falla a propósito: 0 alarmas y la precisión divide entre cero."
+    },
+    {
+      "ruta": "sesion-07/soluciones/ejercicio-28.py",
+      "salida": "sesion-07/soluciones/salida-esperada/ejercicio-28.txt",
+      "codigo_salida": 0,
+      "modo": "subsecuencia",
+      "origen": "llenado",
+      "tolerancia": {
+        "decimales_abs": 0.03,
+        "enteros_abs": 6,
+        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
+      },
+      "nota": "Las dos últimas líneas esperadas no se imprimen en la lección; salen del assert de la lección (0.6 y 0.781)."
+    },
+    {
+      "ruta": "sesion-07/soluciones/ejercicio-29.py",
+      "salida": "sesion-07/soluciones/salida-esperada/ejercicio-29.txt",
+      "codigo_salida": 0,
+      "modo": "subsecuencia",
+      "origen": "leccion",
+      "tolerancia": {
+        "decimales_abs": 0.05,
+        "enteros_abs": 12,
+        "motivo": "revolver columnas con randperm depende del generador aleatorio después de entrenar"
+      },
+      "nota": "La lección dice «al final del detector, con la misma semilla»."
+    },
+    {
+      "ruta": "sesion-08/casos.py",
+      "salida": "sesion-08/salida-esperada/casos.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-08/embedding.py",
+      "salida": "sesion-08/salida-esperada/embedding.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion",
+      "tolerancia": {
+        "decimales_abs": 0.001,
+        "enteros_abs": 0,
+        "motivo": "valores iniciales al azar con semilla fija; pueden variar en los últimos decimales entre plataformas"
+      }
+    },
+    {
+      "ruta": "sesion-08/fragmentos/errores_comunes.py",
+      "salida": "sesion-08/fragmentos/salida-esperada/errores_comunes.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "repo",
+      "nota": "Comprueba el paso 5 y la tabla «Errores comunes» de la lección 8."
+    },
+    {
+      "ruta": "sesion-08/fragmentos/orden_colores.py",
+      "salida": "sesion-08/fragmentos/salida-esperada/orden_colores.txt",
+      "codigo_salida": 1,
+      "modo": "exacto",
+      "origen": "fragmento"
+    },
+    {
+      "ruta": "sesion-08/soluciones/ejercicio-30.py",
+      "salida": "sesion-08/soluciones/salida-esperada/ejercicio-30.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-08/soluciones/ejercicio-31.py",
+      "salida": "sesion-08/soluciones/salida-esperada/ejercicio-31.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-08/soluciones/ejercicio-32.py",
+      "salida": "sesion-08/soluciones/salida-esperada/ejercicio-32.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "llenado"
+    },
+    {
+      "ruta": "sesion-08/soluciones/ejercicio-33.py",
+      "salida": "sesion-08/soluciones/salida-esperada/ejercicio-33.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    },
+    {
+      "ruta": "sesion-08/soluciones/repaso-leccion-b.py",
+      "salida": "sesion-08/soluciones/salida-esperada/repaso-leccion-b.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "repo",
+      "nota": "Escrito para el repositorio; las líneas esperadas son las «salidas reales» que da la lección."
+    },
+    {
+      "ruta": "sesion-08/tienda.py",
+      "salida": "sesion-08/salida-esperada/tienda.txt",
+      "codigo_salida": 0,
+      "modo": "exacto",
+      "origen": "leccion"
+    }
+  ]
+}

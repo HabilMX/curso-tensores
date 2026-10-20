@@ -1,0 +1,5 @@
+# Versiones fijas del curso (las mismas de la lección 2).
+# --index-url: la edición solo CPU de PyTorch (sin tarjeta de video), en Linux, macOS y Windows.
+--index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+torchvision==0.29.1

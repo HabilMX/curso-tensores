@@ -1,0 +1,10 @@
+torch.Size([2, 3, 3])
+tensor([[255,   0,   0],
+        [255,   0, 255]])
+torch.Size([2, 3])
+Canal rojo correcto
+tensor([255, 255,   0])
+torch.Size([3, 2, 3])
+tensor([[255,   0,   0],
+        [255,   0, 255]])
+Mismo rojo, otro orden

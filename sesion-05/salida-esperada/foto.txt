@@ -1,0 +1,4 @@
+torch.Size([28, 28]) 784
+torch.Size([784])
+torch.Size([32, 784])
+torch.Size([25088])

@@ -1,0 +1,7 @@
+(3, 4) -> torch.Size([3, 4])
+(6, 2) -> torch.Size([6, 2])
+(5, 2) -> RuntimeError: shape '[5, 2]' is invalid for input of size 12
+(2, -1) -> torch.Size([2, 6])
+(-1, 5) -> RuntimeError: shape '[-1, 5]' is invalid for input of size 12
+(2, 3, 2) -> torch.Size([2, 3, 2])
+(12, 1) -> torch.Size([12, 1])

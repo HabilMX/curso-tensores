@@ -1,0 +1,3 @@
+torch.return_types.max(
+values=tensor([3900, 1000]),
+indices=tensor([4, 4]))

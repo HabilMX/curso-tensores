@@ -1,0 +1,3 @@
+tabla (7, 3) / total por día (7,) -> RuntimeError: The size of tensor a (3) must match the size of tensor b (7) at non-singleton dimension 1
+tabla de enteros @ precios decimales -> RuntimeError: addmv input tensors must have the same dtype, but got Float, Long, and Float
+lista * 2 y tensor * 2 -> ([1, 2, 3, 1, 2, 3], tensor([2, 4, 6]))

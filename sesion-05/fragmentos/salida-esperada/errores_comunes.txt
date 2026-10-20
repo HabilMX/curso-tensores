@@ -1,0 +1,5 @@
+reshape(-1, -1) -> RuntimeError: only one dimension can be inferred
+reshape(-2, -6) -> RuntimeError: invalid shape dimension -2 at index 0 of shape [-2, -6]
+reshape(-1, 5) -> RuntimeError: shape '[-1, 5]' is invalid for input of size 12
+ventas.reshape(4, 3); ventas.shape -> torch.Size([12])
+ventas[3, 2] -> IndexError: too many indices for tensor of dimension 1

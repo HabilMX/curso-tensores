@@ -1,0 +1,3 @@
+tensor([12, 30,  7]) torch.int64
+tensor([ 35.5000,  12.0000, 450.0000]) torch.float32
+tensor([12.0000, 30.5000,  7.0000]) torch.float32

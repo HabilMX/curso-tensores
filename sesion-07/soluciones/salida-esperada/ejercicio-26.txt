@@ -1,0 +1,7 @@
+época 400   pérdida 0.1843
+época 1000   pérdida 0.1641
+época 2000   pérdida 0.1142
+exactitud: 0.93
+fraudes en el examen: 125
+atrapados: 83 | se escaparon: 42 | alarmas falsas: 14
+recall: 0.664 | precisión: 0.856

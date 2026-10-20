@@ -1,0 +1,3 @@
+tensor(23100)
+torch.Size([])
+23100

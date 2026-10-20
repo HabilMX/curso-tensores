@@ -1,0 +1,5 @@
+exactitud del flojo: 0.844
+fraudes que atrapa: 0 de 125
+El for dice lo mismo: 675 aciertos de 800
+recall del modelo: 0.6
+precisión del modelo: 0.781

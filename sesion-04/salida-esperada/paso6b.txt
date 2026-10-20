@@ -1,0 +1,4 @@
+tensor([3900, 1000])
+tensor([4, 4])
+Centro vendió más el viernes : 3900
+Norte vendió más el viernes : 1000

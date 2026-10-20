@@ -1,0 +1,5 @@
+compras: torch.Size([64, 4])
+historial: torch.Size([32, 30, 4])
+fotos: torch.Size([8, 3, 480, 640])
+números en las fotos: 7372800
+Las tres formas cuadran

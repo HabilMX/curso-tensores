@@ -1,0 +1,2 @@
+Ejercicio 19 superado
+tensor([350, 200, 100])

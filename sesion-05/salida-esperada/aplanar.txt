@@ -1,0 +1,6 @@
+torch.Size([2, 7, 3])
+torch.Size([42])
+tensor([1200,  800,  500, 1500,  900,  700])
+tensor([300, 200, 100])
+tensor(23100) tensor(23100)
+Ida y vuelta sin perder nada

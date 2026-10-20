@@ -1,0 +1,7 @@
+torch.Size([7, 3])
+torch.Size([2, 7, 3])
+torch.Size([7, 3])
+torch.Size([7, 3])
+Traceback (most recent call last):
+  ...
+RuntimeError: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 2

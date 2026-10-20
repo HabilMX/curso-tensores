@@ -1,0 +1,3 @@
+época 400   pérdida 0.3353
+atrapados: 14 | se escaparon: 111 | alarmas falsas: 0
+None

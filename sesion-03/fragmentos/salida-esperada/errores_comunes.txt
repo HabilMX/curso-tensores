@@ -1,0 +1,6 @@
+papeleria[1, 7, 2] -> IndexError: index 7 is out of bounds for dimension 1 with size 7
+papeleria[4, 1, 2] -> IndexError: index 4 is out of bounds for dimension 0 with size 2
+papeleria[:][4] -> IndexError: index 4 is out of bounds for dimension 0 with size 2
+papeleria[0, 0].item() -> RuntimeError: a Tensor with 3 elements cannot be converted to Scalar
+assert papeleria[0, 0] == 1200 -> RuntimeError: Boolean value of Tensor with more than one value is ambiguous
+papeleria[0, 5:20].shape -> torch.Size([2, 3])

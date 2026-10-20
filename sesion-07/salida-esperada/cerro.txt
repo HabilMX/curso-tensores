@@ -1,0 +1,6 @@
+paso 1: precio   0.00  pérdida  3600.00  pendiente  -360.00
+paso 2: precio  18.00  pérdida    36.00  pendiente   -36.00
+paso 3: precio  19.80  pérdida     0.36  pendiente    -3.60
+paso 4: precio  19.98  pérdida     0.00  pendiente    -0.36
+paso 5: precio  20.00  pérdida     0.00  pendiente    -0.04
+precio aprendido: 20.0

@@ -1,0 +1,5 @@
+a funciona: torch.Size([3, 2])
+b truena: ValueError: expected sequence of length 3 at dim 1 (got 2)
+c truena: ValueError: expected sequence of length 2 at dim 2 (got 1)
+d truena: ValueError: expected sequence of length 2 at dim 1 (got 3)
+torch.Size([3, 3])

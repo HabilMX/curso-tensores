@@ -1,0 +1,5 @@
+tensor([4, 4])
+tensor(3900)
+torch.return_types.min(
+values=tensor([1600,  400]),
+indices=tensor([6, 6]))

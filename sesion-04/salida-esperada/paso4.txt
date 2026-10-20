@@ -1,0 +1,4 @@
+torch.Size([2])
+tensor([18500,  4600])
+[18500, 4600]
+Por sucursal: cuadra

@@ -1,0 +1,11 @@
+X: (4000, 4) | y: (4000,) | % fraude: 15.8
+época   1   pérdida 0.6819
+época  10   pérdida 0.4098
+época  50   pérdida 0.2528
+época 100   pérdida 0.2070
+época 200   pérdida 0.1984
+época 400   pérdida 0.1843
+exactitud: 0.911
+fraudes en el examen: 125
+atrapados: 75 | se escaparon: 50 | alarmas falsas: 21
+recall: 0.6 | precisión: 0.781

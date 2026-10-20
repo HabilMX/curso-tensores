@@ -1,0 +1,2 @@
+torch.float32
+tensor(2600.1667)

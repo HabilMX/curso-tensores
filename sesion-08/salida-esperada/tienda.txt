@@ -1,0 +1,3 @@
+papeleria: torch.Size([2, 7, 3])
+tabla: torch.Size([14, 3])
+Total: 23100 | con for: 23100

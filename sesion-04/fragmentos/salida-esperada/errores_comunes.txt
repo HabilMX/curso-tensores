@@ -1,0 +1,3 @@
+max(dim=(1, 2)) -> TypeError: max() received an invalid combination of arguments - got (dim=tuple, ), but expected one of:
+tensor == lista -> False
+2642.857177734375 == 18500 / 7 -> False

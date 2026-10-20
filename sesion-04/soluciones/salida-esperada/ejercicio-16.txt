@@ -1,0 +1,4 @@
+tensor([1600,  400]) tensor([6, 6])
+cuadernos cuadernos
+viernes 4900
+Ejercicio 16 superado

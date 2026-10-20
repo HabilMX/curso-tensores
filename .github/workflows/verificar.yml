@@ -1,0 +1,33 @@
+name: verificar
+
+on: [push, pull_request]
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+
+      - name: Instalar las versiones fijas del curso
+        run: pip install -r requirements.txt
+
+      - name: Los 93 archivos dan la salida de la lección
+        run: python verificar.py
+
+      - name: El verificador sí puede fallar (autoprueba)
+        run: python verificar.py --autoprueba
+
+      - name: Títulos sin emoji y sin palabras vetadas
+        run: python verificar.py --revisar-md
+
+      - name: Sin secretos en el repositorio
+        run: python verificar.py --revisar-secretos

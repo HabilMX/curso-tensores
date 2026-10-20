@@ -1,0 +1,36 @@
+torch.Size([7, 3]) torch.int64
+torch.Size([3]) torch.int64
+tensor([[ 40, 100,   3],
+        [ 50, 115,   3],
+        [ 30,  90,   3],
+        [ 45, 105,   2],
+        [ 65, 150,   4],
+        [ 40, 100,   1],
+        [ 25,  60,   2]])
+Todo cuadra
+tensor([[1200,  800,  700],
+        [1600,  900, 1050],
+        [1000,  700,  700],
+        [1400,  900,  700],
+        [2000, 1200, 1050],
+        [1200,  800,  350],
+        [ 800,  500,  350]])
+torch.Size([7, 3])
+Ingresos correctos
+tensor(19900)
+tensor([[1392.,  928.,  812.],
+        [1856., 1044., 1218.],
+        [1160.,  812.,  812.],
+        [1624., 1044.,  812.],
+        [2320., 1392., 1218.],
+        [1392.,  928.,  406.],
+        [ 928.,  580.,  406.]])
+torch.Size([7, 3]) torch.float32
+tensor(19900) tensor(23084.)
+IVA correcto
+tensor([2700, 3550, 2400, 3000, 4250, 2350, 1650])
+torch.Size([7])
+Los tres caminos dan lo mismo
+Traceback (most recent call last):
+  ...
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x3 and 7x3)

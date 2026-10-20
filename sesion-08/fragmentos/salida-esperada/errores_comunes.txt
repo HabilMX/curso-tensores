@@ -1,0 +1,2 @@
+Embedding con decimales -> RuntimeError: Expected tensor for argument #1 'indices' to have one of the following scalar types: Long, Int; but got torch.FloatTensor instead (while checking arguments for embedding)
+producto 5 de un catálogo 0-4 -> IndexError: index out of range in self

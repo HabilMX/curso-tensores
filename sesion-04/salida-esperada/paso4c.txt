@@ -1,0 +1,6 @@
+torch.Size([2, 3])
+Traceback (most recent call last):
+  File ".../paso4c.py", line 5, in <module>
+    paso_b = paso_a.sum(dim=2)        # ¿quito los productos?
+             ^^^^^^^^^^^^^^^^^
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)

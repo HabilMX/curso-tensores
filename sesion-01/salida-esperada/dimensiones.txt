@@ -1,0 +1,5 @@
+total 0 ()
+por_dia 1 (7,)
+por_dia_y_producto 2 (7, 3)
+papeleria 3 (2, 7, 3)
+Todo cuadra

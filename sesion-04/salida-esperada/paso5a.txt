@@ -1,0 +1,6 @@
+torch.int64
+Traceback (most recent call last):
+  File ".../paso5a.py", line 5, in <module>
+    promedio_diario = ventas_diarias.mean(dim=1)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mean(): could not infer output dtype. Input dtype must be either a floating point or complex dtype. Got: Long

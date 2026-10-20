@@ -1,0 +1,2 @@
+tensor([18500, 18600, 18400, 20000])
+Ejercicio 20 superado

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File ".../chueca.py", line 4, in <module>
+    t = torch.tensor(chueca)
+        ^^^^^^^^^^^^^^^^^^^^
+ValueError: expected sequence of length 3 at dim 1 (got 2)

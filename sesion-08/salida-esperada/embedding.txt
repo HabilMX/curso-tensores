@@ -1,0 +1,8 @@
+tabla completa: torch.Size([5, 3])
+entrada: torch.Size([3]) torch.int64
+salida: torch.Size([3, 3])
+tensor([[ 1.5410, -0.2934, -2.1788],
+        [ 0.4033,  0.8380, -0.7193],
+        [ 1.5410, -0.2934, -2.1788]], grad_fn=<EmbeddingBackward0>)
+Forma y valores cuadran
+historiales: torch.Size([2, 4]) -> torch.Size([2, 4, 3])

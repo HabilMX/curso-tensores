@@ -1,0 +1,6 @@
+1) torch.Size([4, 3]) torch.Size([2, 6])
+2) shape '[5, -1]' is invalid for input of size 12
+3) torch.Size([2, 7, 3])
+4) The size of tensor a (3) must match the size of tensor b (7) at non-singleton dimension 2
+5) a * b = [[10, 40], [90, 160]] | a @ b = [[70, 100], [150, 220]]
+6) torch.Size([14])

@@ -1,0 +1,4 @@
+temperatura torch.Size([]) 0 torch.int64 1
+calificaciones torch.Size([4, 3]) 2 torch.int64 12
+foto torch.Size([2, 2, 3]) 3 torch.int64 12
+promedios torch.Size([4]) 1 torch.float32 4

@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+.venv/
+tensores/
+.entorno/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datos generados al correr los ejemplos
+*.pt
+*.pth
+*.npy
+*.npz
+*.csv
+data/
+datos/

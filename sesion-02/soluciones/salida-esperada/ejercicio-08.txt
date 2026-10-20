@@ -1,0 +1,3 @@
+torch.Size([3, 4, 3]) 3 36 torch.int64
+torch.float32
+Ejercicio 8 superado
