@@ -34,7 +34,7 @@ Requisito de conocimientos: lecciones 0 a 4 del curso de Python de Hábil (insta
 - Python **3.11 o más nuevo** (probado con 3.12), con **PyTorch 2.14.1** y **torchvision 0.29.1** (versiones fijas: con otras, los números pueden
   cambiar un poco y no sabrías si te equivocaste tú). Desde PyTorch 2.15 el mínimo es Python 3.11.
 - Internet para descargar PyTorch (la edición solo CPU pesa menos que la de tarjeta de video).
-- Una terminal.
+- Una terminal. Probado en Linux (Mint 22.3 y Ubuntu 24.04) y en macOS.
 
 Todo corre en la CPU de una laptop normal. No hace falta tarjeta de video.
 
@@ -73,18 +73,10 @@ Si `python3 --version` marca una versión anterior a 3.11, instala una más nuev
 
 ### Windows
 
-En PowerShell, desde tu carpeta personal:
-
-```powershell
-python --version
-python -m venv tensores
-.\tensores\Scripts\activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-Si PowerShell no deja activar el entorno por la política de ejecución, usa el Símbolo del sistema (cmd) y el comando
-`tensores\Scripts\activate.bat`. Los comandos de este README que dicen `python3` se escriben `python` en Windows.
+El curso no se ha probado en Windows. Según la [documentación de Python](https://docs.python.org/3/library/venv.html),
+en PowerShell el entorno se crea con `python -m venv tensores` y se activa con `.\tensores\Scripts\activate`, y los
+comandos que aquí dicen `python3` se escriben `python`. Si una salida no coincide, compárala con la de
+`salida-esperada/` antes de suponer que te equivocaste.
 
 ### Comprobar que quedó
 
@@ -143,4 +135,4 @@ tolerancia numérica pequeña en los pocos programas que dependen de una semilla
 
 ## Licencia
 
-El material del curso va con CC BY-SA 4.0 y el código de los ejemplos con MIT. Ver [`LICENSE.md`](LICENSE.md).
+Pendiente: la decide Hábil. Ver `LICENSE-PENDIENTE.md`.
