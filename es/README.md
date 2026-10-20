@@ -2,7 +2,7 @@
 
 **Por Dorian Chávez, fundador de Hábil y arquitecto de integración.**
 
-De la lista de Python que ya se sabe escribir a un detector de fraude que aprende solo.
+De la lista de Python que ya se sabe escribir a un detector de fraude que aprende de los datos.
 
 **Para quién es:** estudiantes de Sistemas que ya programan un poco en Python, y gente de Administración que quiere
 entender qué hay debajo de la inteligencia artificial que se usa en bancos, aseguradoras y tiendas. Es un curso de
