@@ -1,6 +1,6 @@
 # Tensores desde cero (8): tensores en el banco, la aseguradora y la tienda
 
-*Cómo leer un caso real y decir qué forma tiene su tensor, por qué en la competencia de pronóstico de Walmart ganó un método que no era una red neuronal, y qué cuidados no son opcionales.*
+*Cómo leer un caso real y decir qué forma tiene su tensor, por qué en una competencia de pronóstico con datos de una cadena de autoservicio estadounidense ganó un método que no era una red neuronal, y qué cuidados no son opcionales.*
 
 *Tensores desde cero · lección B, sesión 8 de 8*
 
@@ -207,7 +207,7 @@ Ninguna costumbre está mal; lo que está mal es suponer.
 
 ---
 
-## Paso 4 — La tienda: la lección de humildad de Walmart
+## Paso 4 — La tienda: la lección de humildad del pronóstico
 
 Mateo pregunta lo que lleva toda la mañana queriendo preguntar:
 
@@ -219,7 +219,7 @@ Ortega se ríe.
 
 En 2020 se hizo la competencia de pronóstico M5. Estos datos salen del artículo académico de sus organizadores (Makridakis, Spiliotis y Assimakopoulos):
 
-- Había que pronosticar **42,840 series jerárquicas** de ventas de **Walmart**: 10 tiendas en California, Texas y Wisconsin, datos diarios de unos 5.5 años. En el nivel más desagregado eran 30,490 series, cada una «cuánto vendió este producto en esta tienda, día por día»; las demás eran sumas por categoría, departamento, tienda o estado.
+- Había que pronosticar **42,840 series jerárquicas** de ventas de **una cadena de autoservicio estadounidense** (datos públicos de la competencia M5 de Kaggle): 10 tiendas en California, Texas y Wisconsin, datos diarios de unos 5.5 años. En el nivel más desagregado eran 30,490 series, cada una «cuánto vendió este producto en esta tienda, día por día»; las demás eran sumas por categoría, departamento, tienda o estado.
 - Participaron **7,092 personas en 5,507 equipos de 101 países**.
 - **El primer lugar usó LightGBM**, un método de árboles de decisión, no redes neuronales: un ensamble grande de 220 modelos, no algo trivial. El segundo lugar combinó LightGBM con una red (N-BEATS). El tercero sí usó redes: una combinación de 43 redes neuronales (el equipo usó DeepAR, que lee secuencias).
 
