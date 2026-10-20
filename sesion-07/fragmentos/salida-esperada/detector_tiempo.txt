@@ -1,1 +1,1 @@
-las 400 épocas caben en un segundo: True
+las 300 épocas caben en un segundo: True

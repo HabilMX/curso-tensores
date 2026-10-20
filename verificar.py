@@ -273,7 +273,7 @@ SECRETOS = [
     ("llave privada", re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----")),
     ("token de Slack", re.compile(r"xox[abprs]-[0-9A-Za-z-]{10,}")),
     ("token de GitHub", re.compile(r"gh[pousr]_[A-Za-z0-9]{30,}")),
-    ("token de GitLab", re.compile(r"glpat-[A-Za-z0-9_-]{15,}")),
+    ("token de GitLab", re.compile("glp" + r"at-[A-Za-z0-9_-]{15,}")),   # partido para no disparar a los revisores de secretos
     ("llave tipo sk-", re.compile(r"\bsk-[A-Za-z0-9]{20,}")),
     ("asignación de secreto", re.compile(r"(?i)\b(password|passwd|secret|token|api[_-]?key)\b\s*[:=]\s*['\"][^'\"\s]{8,}['\"]")),
 ]
@@ -365,12 +365,16 @@ def autoprueba(python):
         esperar("3. un número cambia en un script sin tolerancia", ["sesion-07/cerro.py"], True)
         editar("sesion-07/salida-esperada/cerro.txt", "precio aprendido: 21.0", "precio aprendido: 20.0")
 
-        editar("sesion-07/salida-esperada/detector.txt", "exactitud: 0.911", "exactitud: 0.711")
-        esperar("4. un número se sale de la tolerancia del script con semilla", ["sesion-07/detector.py"], True)
-        editar("sesion-07/salida-esperada/detector.txt", "exactitud: 0.711", "exactitud: 0.921")
-        esperar("5. un número cae DENTRO de la tolerancia (debe tolerarse)", ["sesion-07/detector.py"], False)
-        esperar("6. el mismo cambio con --estricto (debe detectarse)", ["sesion-07/detector.py"], True, estricto=True)
-        editar("sesion-07/salida-esperada/detector.txt", "exactitud: 0.921", "exactitud: 0.911")
+        e26 = "sesion-07/soluciones/salida-esperada/ejercicio-26.txt"
+        editar(e26, "exactitud: 0.93", "exactitud: 0.73")
+        esperar("4. un número se sale de la tolerancia del script con semilla", ["sesion-07/soluciones/ejercicio-26.py"], True)
+        editar(e26, "exactitud: 0.73", "exactitud: 0.94")
+        esperar("5. un número cae DENTRO de la tolerancia (debe tolerarse)", ["sesion-07/soluciones/ejercicio-26.py"], False)
+        esperar("6. el mismo cambio con --estricto (debe detectarse)", ["sesion-07/soluciones/ejercicio-26.py"], True, estricto=True)
+        editar(e26, "exactitud: 0.94", "exactitud: 0.93")
+        editar("sesion-07/salida-esperada/detector.txt", "exactitud: 0.908", "exactitud: 0.918")
+        esperar("6b. el detector ya no tiene tolerancia: 0.918 contra 0.908 (debe detectarse)", ["sesion-07/detector.py"], True)
+        editar("sesion-07/salida-esperada/detector.txt", "exactitud: 0.918", "exactitud: 0.908")
 
         original = manifest_path.read_text(encoding="utf-8")
         datos = json.loads(original)

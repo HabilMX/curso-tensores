@@ -1,5 +1,5 @@
 # [repo] detector.py (hasta el ciclo) con un cronómetro alrededor del ciclo de entrenamiento.
-# La lección dice que las 400 épocas tardaron menos de una décima de segundo en su máquina y que aprende «en menos de un segundo».
+# La lección dice que las 300 épocas tardaron menos de una décima de segundo en su máquina y que aprende «en menos de un segundo».
 # El tiempo exacto cambia con la computadora (no determinista): solo se imprime si cabe en un segundo.
 # detector.py — un detector de fraude que aprende solo
 import torch
@@ -41,17 +41,17 @@ optimizador = torch.optim.SGD([W1, b1, W2, b2], lr=1.0)
 # 6) EL CICLO DE ENTRENAMIENTO: una época = una vuelta a las 3,200 compras
 import time
 inicio = time.perf_counter()
-for epoca in range(1, 401):
+for epoca in range(1, 301):
     puntaje = predecir(X_ent)               # 1. predecir
     perdida = perdida_fn(puntaje, y_ent)    # 2. medir qué tan mal le fue
     optimizador.zero_grad()                 # 3. borrar las pendientes de la vuelta anterior
     perdida.backward()                      # 4. calcular la pendiente de cada perilla
     optimizador.step()                      # 5. girar cada perilla un pasito cuesta abajo
-    if epoca in (1, 10, 50, 100, 200, 400):
+    if epoca in (1, 10, 50, 100, 200, 300):
         print(f"época {epoca:3d}   pérdida {perdida.item():.4f}")
 
 tiempo = time.perf_counter() - inicio
-print('las 400 épocas caben en un segundo:', tiempo < 1.0)
+print('las 300 épocas caben en un segundo:', tiempo < 1.0)
 
 # 7) EL EXAMEN: 800 compras que el modelo nunca vio
 with torch.no_grad():

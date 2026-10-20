@@ -1,7 +1,7 @@
 época   1   pérdida 0.6819
 época  10   pérdida 0.8124
 época  50   pérdida 0.4365
-época 400   pérdida 0.4365
+época 300   pérdida 0.4365
 exactitud: 0.844
 fraudes en el examen: 125
 atrapados: 0 | se escaparon: 125 | alarmas falsas: 0

@@ -1,4 +1,4 @@
-revolviendo monto      exactitud 0.858   atrapados 48 de 125
-revolviendo hora       exactitud 0.876   atrapados 58 de 125
-revolviendo distancia  exactitud 0.876   atrapados 61 de 125
-revolviendo extranjero exactitud 0.858   atrapados 52 de 125
+revolviendo monto      exactitud 0.848   atrapados 54 de 125
+revolviendo hora       exactitud 0.873   atrapados 63 de 125
+revolviendo distancia  exactitud 0.870   atrapados 64 de 125
+revolviendo extranjero exactitud 0.849   atrapados 57 de 125

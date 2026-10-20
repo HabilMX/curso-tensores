@@ -37,7 +37,7 @@ primera de esta lista.
   `lr=10`) dieron en esta máquina exactamente los números de la lección. El manifiesto les da una tolerancia pequeña
   (decimales 0.03, enteros 6; en el ejercicio 29, 0.05 y 12) porque la propia lección avisa que PyTorch no garantiza números
   idénticos entre computadoras; `embedding.py` tiene tolerancia de 0.001. Con `--estricto` se apaga.
-- **Tiempos (no deterministas).** La lección dice que las 400 épocas tardan «menos de una décima de segundo»: aquí
+- **Tiempos (no deterministas).** La lección dice que las 300 épocas tardan «menos de una décima de segundo»: aquí
   tardaron 0.06 s. El verificador solo comprueba que quepan en un segundo (`sesion-07/fragmentos/detector_tiempo.py`).
 - **Versión de `torch`.** En Linux y Windows la edición CPU se reporta como `2.14.1+cpu`; en macOS, como `2.14.1`. La lección
   acepta las dos; el verificador quita el sufijo `+cpu` en `sesion-02/verifica.py`.
@@ -49,7 +49,7 @@ primera de esta lista.
 Además de los archivos que pide la lección, se comprobaron los mensajes y cifras que cita en prosa y en las tablas
 «Errores comunes» (`fragmentos/errores_comunes.py` de las sesiones 2 a 8, y en la sesión 7 `detector_inspeccion.py`,
 `detector_lr10_diagnostico.py` y `detector_sin_grad_en_W1.py`). Coincidieron todos: por ejemplo, las 25,600 señales en
-cero y el puntaje constante de -1.67 con `lr=10`, y la pérdida de 0.3353 con 14 fraudes atrapados al olvidar
+cero y el puntaje constante de -1.67 con `lr=10`, y la pérdida de 0.3366 con 13 fraudes atrapados al olvidar
 `requires_grad` en `W1`.
 
 ## No verificado por el verificador

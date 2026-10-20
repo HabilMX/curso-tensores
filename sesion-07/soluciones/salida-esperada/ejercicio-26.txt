@@ -1,4 +1,4 @@
-época 400   pérdida 0.1843
+época 300   pérdida 0.1910
 época 1000   pérdida 0.1641
 época 2000   pérdida 0.1142
 exactitud: 0.93

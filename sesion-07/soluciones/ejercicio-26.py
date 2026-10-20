@@ -44,7 +44,7 @@ for epoca in range(1, 2001):
     optimizador.zero_grad()                 # 3. borrar las pendientes de la vuelta anterior
     perdida.backward()                      # 4. calcular la pendiente de cada perilla
     optimizador.step()                      # 5. girar cada perilla un pasito cuesta abajo
-    if epoca in (1, 10, 50, 100, 200, 400, 1000, 2000):
+    if epoca in (1, 10, 50, 100, 200, 300, 1000, 2000):
         print(f"época {epoca:3d}   pérdida {perdida.item():.4f}")
 
 # 7) EL EXAMEN: 800 compras que el modelo nunca vio

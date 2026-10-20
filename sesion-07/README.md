@@ -21,13 +21,13 @@ Cada archivo tiene su salida esperada en `salida-esperada/` (las soluciones, en 
 | `fragmentos/cerro_sin_zero_grad.py` | escrito para este repositorio | Comprueba la fila «Olvidar borrar las pendientes» de la lección 7. Ver DIFERENCIAS.md: con los assert de cerro.py puestos, el programa SÍ truena. |
 | `fragmentos/detector_inspeccion.py` | bloque de la lección armado con líneas añadidas (marcadas con [repo]) | Paso 3 de la lección 7: «Para verlo de cerca, agrega print(X[:3]) y print(y[:3])». |
 | `fragmentos/detector_lr10_diagnostico.py` | bloque de la lección armado con líneas añadidas (marcadas con [repo]) | Solución del ejercicio 27, con lr=10: las 25,600 señales en cero y el puntaje constante de -1.67. |
-| `fragmentos/detector_sin_grad_en_W1.py` | escrito para este repositorio | Comprueba la fila «Olvidar requires_grad=True» de la lección 7: la pérdida se atora en 0.3353 y atrapa 14 de 125 (los 111 que se escapan y las 0 alarmas falsas son lo que sale del mismo conteo; la lección no los cita). |
+| `fragmentos/detector_sin_grad_en_W1.py` | escrito para este repositorio | Comprueba la fila «Olvidar requires_grad=True» de la lección 7: la pérdida se atora en 0.3366 y atrapa 13 de 125 (los 112 que se escapan y las 0 alarmas falsas son lo que sale del mismo conteo; la lección no los cita). |
 | `fragmentos/detector_tiempo.py` | bloque de la lección armado con líneas añadidas (marcadas con [repo]) | Tiempo: no determinista. Solo se comprueba el umbral de un segundo, no el valor. |
 | `fragmentos/errores_comunes.py` | escrito para este repositorio | Comprueba la tabla «Errores comunes» de la lección 7. La lección cierra el mensaje de backward con un punto; se compara por contenido. |
-| `soluciones/ejercicio-26.py` | código de la lección con los huecos llenados según su solución | La lección pega solo desde la época 400; el verificador exige esas líneas en orden. |
+| `soluciones/ejercicio-26.py` | código de la lección con los huecos llenados según su solución | La lección pega solo desde la época 300; el verificador exige esas líneas en orden. |
 | `soluciones/ejercicio-27-lr0.1.py` | código de la lección con los huecos llenados según su solución | La lección recorta algunas épocas de en medio; el verificador exige esas líneas en orden. |
 | `soluciones/ejercicio-27-lr10.py` | código de la lección con los huecos llenados según su solución | Falla a propósito: 0 alarmas y la precisión divide entre cero. |
-| `soluciones/ejercicio-28.py` | código de la lección con los huecos llenados según su solución | Las dos últimas líneas esperadas no se imprimen en la lección; salen del assert de la lección (0.6 y 0.781). |
+| `soluciones/ejercicio-28.py` | código de la lección con los huecos llenados según su solución | Las dos últimas líneas esperadas no se imprimen en la lección; salen del assert de la lección (0.648 y 0.73). |
 | `soluciones/ejercicio-29.py` | código de la lección, tal cual | La lección dice «al final del detector, con la misma semilla». |
 
 ## Cómo leer la columna «De dónde sale»

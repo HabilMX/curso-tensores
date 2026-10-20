@@ -38,13 +38,13 @@ perdida_fn = torch.nn.BCEWithLogitsLoss()
 optimizador = torch.optim.SGD([W1, b1, W2, b2], lr=0.1)
 
 # 6) EL CICLO DE ENTRENAMIENTO: una época = una vuelta a las 3,200 compras
-for epoca in range(1, 401):
+for epoca in range(1, 301):
     puntaje = predecir(X_ent)               # 1. predecir
     perdida = perdida_fn(puntaje, y_ent)    # 2. medir qué tan mal le fue
     optimizador.zero_grad()                 # 3. borrar las pendientes de la vuelta anterior
     perdida.backward()                      # 4. calcular la pendiente de cada perilla
     optimizador.step()                      # 5. girar cada perilla un pasito cuesta abajo
-    if epoca in (1, 10, 50, 100, 200, 400):
+    if epoca in (1, 10, 50, 100, 200, 300):
         print(f"época {epoca:3d}   pérdida {perdida.item():.4f}")
 
 # 7) EL EXAMEN: 800 compras que el modelo nunca vio

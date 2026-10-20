@@ -541,12 +541,7 @@
       "codigo_salida": 0,
       "modo": "exacto",
       "origen": "leccion",
-      "tolerancia": {
-        "decimales_abs": 0.03,
-        "enteros_abs": 6,
-        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
-      },
-      "nota": "Bloques 1 a 7 de la lección en orden, con el bloque de la pérdida y el optimizador antes del ciclo. La lección dice 61 líneas, 41 sin comentarios ni líneas en blanco; este archivo tiene 61 y 41."
+      "nota": "Bloques 1 a 7 de la lección en orden, con el bloque de la pérdida y el optimizador antes del ciclo. La lección dice 61 líneas, 41 sin comentarios ni líneas en blanco; este archivo tiene 61 y 41. Sin tolerancia: con 300 épocas la salida es estable entre computadoras (medido con perturbaciones de hasta 1e-4 en las perillas iniciales, en float32 y float64)."
     },
     {
       "ruta": "sesion-07/fragmentos/cerro_sin_zero_grad.py",
@@ -588,7 +583,7 @@
         "enteros_abs": 6,
         "motivo": "salida que depende de la semilla y de la plataforma"
       },
-      "nota": "Comprueba la fila «Olvidar requires_grad=True» de la lección 7: la pérdida se atora en 0.3353 y atrapa 14 de 125 (los 111 que se escapan y las 0 alarmas falsas son lo que sale del mismo conteo; la lección no los cita)."
+      "nota": "Comprueba la fila «Olvidar requires_grad=True» de la lección 7: la pérdida se atora en 0.3366 y atrapa 13 de 125 (los 112 que se escapan y las 0 alarmas falsas son lo que sale del mismo conteo; la lección no los cita)."
     },
     {
       "ruta": "sesion-07/fragmentos/detector_tiempo.py",
@@ -617,7 +612,7 @@
         "enteros_abs": 6,
         "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
       },
-      "nota": "La lección pega solo desde la época 400; el verificador exige esas líneas en orden."
+      "nota": "La lección pega solo desde la época 300; el verificador exige esas líneas en orden."
     },
     {
       "ruta": "sesion-07/soluciones/ejercicio-27-lr0.1.py",
@@ -625,12 +620,7 @@
       "codigo_salida": 0,
       "modo": "subsecuencia",
       "origen": "llenado",
-      "tolerancia": {
-        "decimales_abs": 0.03,
-        "enteros_abs": 6,
-        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
-      },
-      "nota": "La lección recorta algunas épocas de en medio; el verificador exige esas líneas en orden."
+      "nota": "La lección recorta algunas épocas de en medio; el verificador exige esas líneas en orden. Sin tolerancia: con 300 épocas la salida es estable entre computadoras (medido con perturbaciones de hasta 1e-4 en las perillas iniciales, en float32 y float64)."
     },
     {
       "ruta": "sesion-07/soluciones/ejercicio-27-lr10.py",
@@ -651,12 +641,7 @@
       "codigo_salida": 0,
       "modo": "subsecuencia",
       "origen": "llenado",
-      "tolerancia": {
-        "decimales_abs": 0.03,
-        "enteros_abs": 6,
-        "motivo": "salida que depende de la semilla y de la plataforma (la lección lo dice en «Sobre la semilla»)"
-      },
-      "nota": "Las dos últimas líneas esperadas no se imprimen en la lección; salen del assert de la lección (0.6 y 0.781)."
+      "nota": "Las dos últimas líneas esperadas no se imprimen en la lección; salen del assert de la lección (0.648 y 0.73). Sin tolerancia: con 300 épocas la salida es estable entre computadoras (medido con perturbaciones de hasta 1e-4 en las perillas iniciales, en float32 y float64)."
     },
     {
       "ruta": "sesion-07/soluciones/ejercicio-29.py",
