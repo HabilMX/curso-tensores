@@ -1,6 +1,6 @@
 # Ejercicio 26 — detector.py con 2000 épocas: range(1, 2001) y las épocas 1000 y 2000 en la lista que se imprime.
 # (sesión 7; ver el README.md de la carpeta para saber de dónde sale este archivo)
-# detector.py — un detector de fraude que aprende solo
+# detector.py — un detector de fraude que aprende de los datos
 import torch
 
 torch.manual_seed(42)          # semilla fija: los mismos números "al azar" cada vez

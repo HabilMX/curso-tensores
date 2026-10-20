@@ -1,6 +1,6 @@
 # Ejercicio 27 — detector.py con lr=10 (termina con ZeroDivisionError, como dice la lección).
 # (sesión 7; ver el README.md de la carpeta para saber de dónde sale este archivo)
-# detector.py — un detector de fraude que aprende solo
+# detector.py — un detector de fraude que aprende de los datos
 import torch
 
 torch.manual_seed(42)          # semilla fija: los mismos números "al azar" cada vez

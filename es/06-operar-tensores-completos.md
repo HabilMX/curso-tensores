@@ -656,7 +656,7 @@ La sesión 7 empieza con estas tres preguntas. Contéstalas sin ver la lección:
 2. ¿Qué diferencia hay entre `*` y `@`?
 3. ¿Qué forma sale de una tabla `(7, 3) @` un vector `(3,)`?
 
-🔁 **La próxima semana:** Mateo ya puede probar que esos cobros no salieron de la papelería. Lo que no sabe es de dónde salieron. Para eso va a construir un detector de fraude que aprende solo: le das miles de compras inventadas con una regla escondida, y el modelo la descubre por su cuenta, a puro `@` y estiramiento automático, las dos operaciones de hoy.
+🔁 **La próxima semana:** Mateo ya puede probar que esos cobros no salieron de la papelería. Lo que no sabe es de dónde salieron. Para eso va a construir un detector de fraude que aprende de los datos: le das miles de compras inventadas con una regla escondida, y el modelo la descubre por su cuenta, a puro `@` y estiramiento automático, las dos operaciones de hoy.
 
 *Los cobros no venían de la papelería. Venían de otro lado. Y el banco solo veía la terminal.*
 

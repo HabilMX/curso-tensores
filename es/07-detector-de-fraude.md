@@ -1,4 +1,4 @@
-# Tensores desde cero (7): un detector de fraude que aprende solo
+# Tensores desde cero (7): un detector de fraude que aprende de los datos
 
 *Le das 4,000 compras con tarjeta y la respuesta de cada una, pero nunca le escribes la regla. En menos de un segundo aprende buena parte de ella. Y luego aprendes por qué acertar 91 % de las veces puede esconder que se le escapa más de 1 de cada 3 fraudes.*
 
@@ -202,7 +202,7 @@ El modelo **nunca** ve esta regla escrita: solo recibe los cuatro datos de cada 
 Crea `detector.py`. Va por partes. Copia los bloques 1 a 7 en el mismo archivo, en el orden en que aparecen (en el código van numerados con comentarios). Esta es la primera:
 
 ```python
-# detector.py — un detector de fraude que aprende solo
+# detector.py — un detector de fraude que aprende de los datos
 import torch
 
 torch.manual_seed(42)          # semilla fija: los mismos números "al azar" cada vez

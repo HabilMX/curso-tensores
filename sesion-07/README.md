@@ -1,4 +1,4 @@
-# Sesión 7: Un detector de fraude que aprende solo
+# Sesión 7: Un detector de fraude que aprende de los datos
 
 Lección B del curso Tensores desde cero. La lección completa está en el Substack de Hábil: https://enconstruccionmx.substack.com
 

@@ -1,7 +1,7 @@
 # [repo] detector.py (hasta el ciclo) con un cronómetro alrededor del ciclo de entrenamiento.
 # La lección dice que las 300 épocas tardaron menos de una décima de segundo en su máquina y que aprende «en menos de un segundo».
 # El tiempo exacto cambia con la computadora (no determinista): solo se imprime si cabe en un segundo.
-# detector.py — un detector de fraude que aprende solo
+# detector.py — un detector de fraude que aprende de los datos
 import torch
 
 torch.manual_seed(42)          # semilla fija: los mismos números "al azar" cada vez

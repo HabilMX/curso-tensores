@@ -20,7 +20,7 @@ archivo y un verificador que lo comprueba.
 | 4 | [`sesion-04`](sesion-04/) | Sumar por pestaña | 17 |
 | 5 | [`sesion-05`](sesion-05/) | Cambiar de forma sin cambiar los datos | 15 |
 | 6 | [`sesion-06`](sesion-06/) | Operar tensores completos | 11 |
-| 7 | [`sesion-07`](sesion-07/) | Un detector de fraude que aprende solo | 13 |
+| 7 | [`sesion-07`](sesion-07/) | Un detector de fraude que aprende de los datos | 13 |
 | 8 | [`sesion-08`](sesion-08/) | Tensores en el banco, la aseguradora y la tienda | 10 |
 
 Las dos lecciones del curso son la A (sesiones 1 a 4: de la lista al cubo) y la B (sesiones 5 a 8: los tensores

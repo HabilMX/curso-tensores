@@ -46,7 +46,7 @@ Con esta sesión empieza la segunda lección, **Los tensores trabajando**. Hasta
 |---|---|---|
 | **5 — Cambiar de forma sin cambiar los datos** | `reshape` y `flatten`, y cómo leer el error de forma | Ejercicios 18 a 21 |
 | **6 — Operar tensores completos** | Hacer cuentas con todo el tensor a la vez, sin `for` | Ejercicios 22 a 25 |
-| **7 — Un detector de fraude que aprende solo** | Entrenar un modelo pequeño con tensores | Ejercicios 26 a 29 |
+| **7 — Un detector de fraude que aprende de los datos** | Entrenar un modelo pequeño con tensores | Ejercicios 26 a 29 |
 | **8 — Tensores en el banco, la aseguradora y la tienda** | Leer un caso real y decir qué forma tiene su tensor | Ejercicios 30 a 33, autoevaluación y repaso de la lección B |
 
 Como en la lección A, cada sesión es de unas 2 horas: una para leer y otra para practicar.

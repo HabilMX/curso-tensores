@@ -35,7 +35,7 @@ tiene hasta el 23 de diciembre para entender qué pasó.
 | 4 | [Sumar por pestaña](04-sumar-por-pestana.md) | sumar y promediar sobre un eje con `dim` |
 | 5 | [Cambiar de forma sin cambiar los datos](05-cambiar-de-forma.md) | `reshape` y cómo leer un error de forma |
 | 6 | [Operar tensores completos](06-operar-tensores-completos.md) | broadcasting, y la trampa de `*` contra `@` |
-| 7 | [Un detector de fraude que aprende solo](07-detector-de-fraude.md) | el ciclo de entrenamiento; exactitud, recall y precisión |
+| 7 | [Un detector de fraude que aprende de los datos](07-detector-de-fraude.md) | el ciclo de entrenamiento; exactitud, recall y precisión |
 | 8 | [Tensores en el banco, la aseguradora y la tienda](08-banco-aseguradora-tienda.md) | leer un caso real y decir la forma de su tensor; los cuidados que no son opcionales |
 
 ## El código

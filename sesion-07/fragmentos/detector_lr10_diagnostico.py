@@ -1,6 +1,6 @@
 # [repo] detector.py con lr=10 hasta el ciclo de entrenamiento (sin el examen) + el diagnóstico que describe la solución del ejercicio 27:
 # «relu dejó en cero las 25,600 [señales] de las compras de estudio» y el puntaje constante (-1.67 en el examen).
-# detector.py — un detector de fraude que aprende solo
+# detector.py — un detector de fraude que aprende de los datos
 import torch
 
 torch.manual_seed(42)          # semilla fija: los mismos números "al azar" cada vez

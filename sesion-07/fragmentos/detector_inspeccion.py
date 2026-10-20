@@ -1,5 +1,5 @@
 # [repo] solo el primer bloque de detector.py + las dos líneas print(X[:3]) y print(y[:3]) que la lección pide agregar justo después del primer print
-# detector.py — un detector de fraude que aprende solo
+# detector.py — un detector de fraude que aprende de los datos
 import torch
 
 torch.manual_seed(42)          # semilla fija: los mismos números "al azar" cada vez
