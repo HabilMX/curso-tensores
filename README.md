@@ -135,4 +135,4 @@ tolerancia numérica pequeña en los pocos programas que dependen de una semilla
 
 ## Licencia
 
-Pendiente: la decide Hábil. Ver `LICENSE-PENDIENTE.md`.
+El material del curso y el código tienen cada uno su licencia; los términos completos están en `LICENSE.md`.
