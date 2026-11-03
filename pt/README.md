@@ -1,6 +1,6 @@
 # Tensores do zero
 
-**Por Dorian Chávez, fundador da Hábil e arquiteto de integração.**
+**Por Dorian Chávez, cofundador da Hábil e arquiteto de integração.**
 
 Da lista de Python que já se sabe escrever a um detector de fraude que aprende com os dados.
 

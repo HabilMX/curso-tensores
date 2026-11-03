@@ -1,6 +1,6 @@
 # Les tenseurs à partir de zéro
 
-**Par Dorian Chávez, fondateur de Hábil et architecte d'intégration.**
+**Par Dorian Chávez, cofondateur de Hábil et architecte d'intégration.**
 
 De la liste Python que l'on sait déjà écrire à un détecteur de fraude qui apprend à partir des données.
 

@@ -1,6 +1,6 @@
 # Tensors from scratch
 
-**By Dorian Chávez, founder of Hábil and integration architect.**
+**By Dorian Chávez, co-founder of Hábil and integration architect.**
 
 From the Python list you already know how to write to a fraud detector that learns from data.
 
